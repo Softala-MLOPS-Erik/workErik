@@ -18,7 +18,7 @@ jobs:
     - name: Set up Python 3.8
       uses: actions/setup-python@v5 # Use the latest version of setup-python
       with:
-        python-version: '3.8'
+        python-version: '3.10'
         cache: 'pip'
         
     - name: Install dependencies
@@ -28,7 +28,7 @@ jobs:
         if [ -f "src/requirements.txt" ]; then
           pip install -r src/requirements.txt
         else
-          pip install pandas numpy kfp~=1.8.14 scikit-learn
+          pip install pandas numpy kfp==1.8.22 scikit-learn
         fi
         
     - name: Connect to local server and run the Python files
