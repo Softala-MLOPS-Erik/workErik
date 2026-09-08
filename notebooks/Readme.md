@@ -9,3 +9,4 @@ First edit for step 5 in initialization.
 - ninth try restarted all and install kfp with pipx.
 - tenth attempt
 - 11th attempt
+- 12th attempt this time with 3.14 and all restarted
