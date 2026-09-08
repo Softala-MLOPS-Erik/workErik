@@ -15,10 +15,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4 # Use the latest version of checkout action
 
-    - name: Setup python 3.14
+    - name: Setup python 3.10
       uses: actions/setup-python@v5 # Use the latest version of setup-python
       with:        
-        python-version: '3.14'
+        python-version: '3.10'
         
         cache: 'pip' # Speeds up execution by caching dependencies
         
