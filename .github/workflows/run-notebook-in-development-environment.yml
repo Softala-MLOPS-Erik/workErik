@@ -14,6 +14,11 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4 # Use the latest version of checkout action
+
+    - name: Setup python
+      uses: actions/setup-python@v5 # Use the latest version of setup-python
+      with:        
+        cache: 'pip' # Speeds up execution by caching dependencies
         
     - name: Install dependencies
       run: |
