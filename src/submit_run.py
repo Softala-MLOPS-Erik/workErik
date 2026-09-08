@@ -11,7 +11,7 @@ KFP_ENDPOINT = "http://localhost:8080"
 
 def submit_pipeline():
     client = kfp.Client(host=KFP_ENDPOINT)
-    print("hello world")
+    print("hello User")
 
     if os.environ.get("GITHUB_ACTIONS") == "true":
         ci_platform = "github-actions"
