@@ -12,3 +12,4 @@ First edit for step 5 in initialization.
 - 12th attempt this time with 3.14 and all restarted
 - 13th try with tip from Lauri
 - 14th try changes 3.14 python to 3.10
+- 15th Update testing for Version upgrades.
